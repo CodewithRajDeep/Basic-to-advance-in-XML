@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="products">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="product" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="id" type="xs:string"/>
+<xs:element name="perishable" type="xs:boolean"/>
+<xs:element name="name" type="xs:string"/>
+<xs:element name="manufacturer" type="xs:string"/>
+<xs:element name="quantity" type="xs:integer"/>
+<xs:element name="price" type="xs:decimal"/>
+
+<!-- Perishable products -->
+<xs:choice minOccurs="0">
+<xs:element name="food">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="nutrition">
+<xs:complexType>
+<xs:sequence>
+
+<xs:element name="calcium" type="xs:decimal"/>
+<xs:element name="proteins" type="xs:decimal"/>
+<xs:element name="fat" type="xs:decimal"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="expirationDate" type="xs:date"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<!-- Non-perishable products -->
+<xs:element name="stock">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="warehouse" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="id" type="xs:string"/>
+<xs:element name="description" type="xs:string"/>
+<xs:element name="stock" type="xs:integer"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,13 @@
+<!DOCTYPE farm SYSTEM "farm.dtd">
+
+<!-- farm.dtd -->
+
+<!ELEMENT farm (farmer+, (dog | cat?)?, (pig | goat | cow)?, chicken+, duck?)>
+<!ELEMENT farmer (#PCDATA)>
+<!ELEMENT dog (#PCDATA)>
+<!ELEMENT cat (#PCDATA)>
+<!ELEMENT pig (#PCDATA)>
+<!ELEMENT goat (#PCDATA)>
+<!ELEMENT cow (#PCDATA)>
+<!ELEMENT chicken (#PCDATA)>
+<!ELEMENT duck (#PCDATA)>

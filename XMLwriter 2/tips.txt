@@ -1,0 +1,42 @@
+You can right-click just about anywhere in XMLwriter to display a context-sensitive shortcut menu.
+You can get help on any dialogue box by pressing the Help button in the dialogue box, or pressing F1.
+You can learn about any command on a menu or button on a toolbar, by placing the cursor over the command or button, and reading the status bar message at the bottom of the main window.
+For the best results, make sure you have the latest MSXML release installed! Check the Download section on our website.
+Open the XML Guide in the XMLwriter's Help Manual for a quick reference to XML syntax.
+Click on the root element in TagBar, and press the asterix key (*) on your keypad to expand the entire TagBar tree.
+To check if you are using the latest version of XMLwriter, select Check for New Version... from the Help menu.
+You can drag and drop or double-click on a code Snippet to insert it into your document.
+To preview a document you are editing, right-click the page and select the Preview in Window, or Preview in Browser option.
+You can change XMLwriter's syntax colors. To do so, choose Options from the Tools menu, then click the Format tab. Select the Syntax Item you want to change, and the Text Color you want to change it to.
+Check out TagBar's different layout modes in XMLwriter's Tool Options! You can view your DTD/XML Schema as a tree or as a flat element list.
+Use the What's This? button to find out the function of a screen component.
+You can customize menus. To do so, choose Customize... from the Tools menu. In the Commands box, click on the command you want to add, and drag it onto the menu.
+If you want to rearrange the columns in Error View, simply click on the column's title and drag it to its new position.
+You can tile or minimize any of your open document windows. To do so, choose Windows from the Window menu, select the windows you want to tile or minimize, and click the Tile or Minimize button.
+You can move toolbar buttons and menus without accessing the Customize dialogue box. Simply hold down the Alt key and drag a toolbar button or menu to its new location.
+XMLwriter can automatically detect if the same file you are editing in the program has been externally modified. This option can be turned on or off in General Options.
+Ctrl Backspace deletes the previous word in a document.
+Ctrl Delete deletes the next word in a document.
+You can create your own templates in XMLwriter. Create the document you want to save as a template, then click Save As Template... on the File menu.
+You can insert bookmarks in a document while you are editing to allow easy navigation. See Bookmarks on the Edit menu.
+You can configure external applications such as XML parsers or XSL engines to work within XMLwriter. See the User Tools tutorial in the XMLwriter Help Manual.
+You can reposition toolbars, the Workspace, Error View, and Tool View by dragging and dropping their gripper bars.
+The Snippets window contains two columns: Name and Text. If you would prefer to view the Text column first, click on the Text caption and drag it across to the left.
+You can create new keyboard shortcuts. To do so, choose Customize... from the Tools menu, then click the Keyboard tab. Select the Command you want to change in the Commands box, then enter the new keyboard shortcut in the Press New Shortcut Key box.
+If you want to search for the next occurrence of a string, double-click on the string and press Ctrl+F3.
+You can close multiple documents. To do so, choose Windows from the Window menu. Select the windows you want to close, and click the Close Window(s) button.
+You can drag and drop text within the document window. The default drag action is move. You can change the default drag action to be copy in Editor Options, or hold down the Ctrl key as you drag the selection.
+A quick way to add code to the Snippets window: Highlight the text you want to save as a Snippet, then drag and drop the selection onto the Snippets window.
+You can drag and drop files and folders in Project View. The default drag action is move. If you hold down the Ctrl key as you drag the selection, it will be copied.
+You can view white space in your documents. See Editor Options.
+You can quickly open the most recent files or projects you have edited. Look under Recent Files or Recent Projects in the File menu.
+To preview a document in your favorite browser, simply select Preview in Browser from the View menu. You can configure an external browser in XMLwriter's Tool Options.
+Press Ctrl+Tab to shift between document windows.
+You can use the Open URL command in the File menu to open the source of a file from a URL.
+You can move a window without docking it by holding down the Ctrl key down while you drag the window.
+You can open multiple files in the Open dialogue box, by holding down the Shift or Ctrl key down as you select each file.
+You can perform batch validation on all the XML files in a project by right-clicking on the project name and selecting Validate All Files from the context menu.
+You can change XMLwriter's font or font size. To do so, choose Options from the Tools menu, then click the Format tab.
+You can perform batch XSL transformation on all the XML files in a project. Right-click on the project name and select Transform All XML Files Using XSLT from the context menu.
+You can set files to Read Only status. To do so, select Read Only from the Edit menu.
+You can automatically validate XML files when you open and save them by selecting the appropriate option in Validation Options.

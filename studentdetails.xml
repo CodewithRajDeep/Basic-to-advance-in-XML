@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentDetails SYSTEM "studentdetails.dtd">
+
+<studentDetails>
+
+<student mandatory="yes">
+<firstName>John</firstName>
+<middleName>David</middleName>
+<lastName>Doe</lastName>
+<SAP_ID>1234567890</SAP_ID>
+<email>john.doe@example.com</email>
+<address>123 Main Street</address>
+<phone>123-456-7890</phone>
+<yearOfJoining>2023</yearOfJoining>
+<locality>North Campus</locality>
+<city>New Delhi</city>
+<state>Delhi</state>
+<country>India</country>
+<pinCode>110001</pinCode>
+</student>
+
+</studentDetails>

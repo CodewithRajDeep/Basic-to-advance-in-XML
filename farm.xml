@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE farm SYSTEM "farm.dtd">
+
+<farm>
+<farmer>John Doe</farmer>
+<dog>Rex</dog>
+<chicken>Betty</chicken>
+<chicken>Clara</chicken>
+</farm>

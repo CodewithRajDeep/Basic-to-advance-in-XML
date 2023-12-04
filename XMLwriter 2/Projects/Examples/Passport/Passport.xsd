@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<!--See PassportSchema.xml for details on how to use this XSD Schema for validation-->
+
+<!--The 'schema' element indicates that the syntax used in the XML Schema,
+	prefixed with 'xsd:', comes from the "http://www.w3.org/2001/XMLSchema" namespace.-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!--The 'passport_details' element contains child elements in the order listed.
+		See the end of file	for each child's definition.
+		Elements that contain other elements are of complex type.-->
+	<xsd:element name="passport_details">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="birth_cert"/>
+				<xsd:element ref="last_name"/>
+				<xsd:element ref="first_name" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element ref="address"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="address">
+		<xsd:complexType>
+			<!--'xsd:sequence' indicates the child elements must appear in the order listed.-->
+			<xsd:sequence>
+				<xsd:element ref="street"/>
+				<!--'xsd:choice' indicates a choice between the elements listed.-->
+				<xsd:choice>
+					<xsd:element ref="city"/>
+					<xsd:element ref="town"/>
+				</xsd:choice>
+				<xsd:choice>
+					<xsd:element ref="state"/>
+					<xsd:element ref="province"/>
+				</xsd:choice>
+				<xsd:choice>
+					<xsd:element ref="ZIP"/>
+					<xsd:element ref="postal_code"/>
+				</xsd:choice>
+				<xsd:element ref="country"/>
+				<xsd:element ref="contact_no" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="email" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--Define simple type elements.-->
+	<xsd:element name="street" type="xsd:string"/>
+	<xsd:element name="country" type="xsd:string"/>
+	<xsd:element name="town" type="xsd:string"/>
+	<xsd:element name="postal_code" type="xsd:string"/>
+	<xsd:element name="email" type="xsd:string"/>
+	<xsd:element name="contact_no" type="xsd:string"/>
+	<xsd:element name="province" type="xsd:string"/>
+	<xsd:element name="first_name" type="xsd:string"/>
+	<xsd:element name="birth_cert" type="xsd:string"/>
+	<xsd:element name="city" type="xsd:string"/>
+	<xsd:element name="ZIP" type="xsd:string"/>
+	<xsd:element name="state" type="xsd:string"/>
+	<xsd:element name="last_name" type="xsd:string"/>
+	
+</xsd:schema>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

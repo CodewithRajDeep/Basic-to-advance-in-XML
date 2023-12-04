@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!--What you can do with this file:
+	1. Check that it validates against the DTD, PassportExt.dtd, assigned to it.
+	   To validate, select 'Validate' from the Tools menu, or press F7.-->
+
+<!-- DOCTYPE declaration, specifying an external DTD file, PassportExt.dtd.-->
+<!DOCTYPE passport_details SYSTEM "Passport.dtd">
+
+<passport_details>
+	<!--An entity called &cert; is referenced. This entity is replaced by the
+		text file referenced in the DTD.-->
+	<birth_cert>&cert;</birth_cert>
+	<last_name>Citizen</last_name>
+	<first_name>Jo</first_name>
+	<address>
+		<street>X Street</street>
+		<city>X City</city>
+		<state>X State</state>
+		<postal_code>XXXX</postal_code>
+		<country>X Country</country>
+	<email>jo@citizen.com</email>
+	</address>
+</passport_details>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

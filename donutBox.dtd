@@ -1,0 +1,10 @@
+<!DOCTYPE donutBox SYSTEM "donutBox.dtd">
+
+<!-- donutBox.dtd -->
+
+<!ELEMENT donutBox (jelly?, lemon*, (creme | sugar)+ | glazed)>
+<!ELEMENT jelly (#PCDATA)>
+<!ELEMENT lemon (#PCDATA)>
+<!ELEMENT creme (#PCDATA)>
+<!ELEMENT sugar (#PCDATA)>
+<!ELEMENT glazed (#PCDATA)>

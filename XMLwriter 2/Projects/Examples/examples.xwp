@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project name="Examples.xwp" homepath="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples" example_xsl="" example_xml="" output_folder="" output_ext="">
+	<group name="Library Example" filter="" description="This folder contains the Library example." example_xml="" example_xsl="" output_folder="" output_ext="">
+	<group name="DTD/Schema Files" filter="*.dtd;*.xsd" description="This folder contains DTDs and XML Schema Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\Library.dtd" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\Library.xsd" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	<group name="Stylesheets" filter="*.css;*.xsl;*.xslt" description="This folder contains CSS, XSL and XSLT Stylesheets." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\Library.xslt" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\Library.css" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	<group name="XML Files" filter="*.xml" description="This folder contains XML Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\LibraryCss.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\LibraryDtd.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\LibraryXslt.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\library\LibrarySchema.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	</group>
+	
+	<group name="Passport Example" filter="" description="This folder contains the Passport example." example_xml="" example_xsl="" output_folder="" output_ext="">
+	<group name="DTD/Schema Files" filter="*.dtd;*.xsd" description="This folder contains DTDs and XML Schema Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\passport\Passport.dtd" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\passport\Passport.xsd" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	<group name="Stylesheets" filter="*.css;*.xsl;*.xslt" description="This folder contains CSS, XSL and XSLT Stylesheets." example_xml="" example_xsl="" output_folder="" output_ext=""/>
+	<group name="XML Files" filter="*.xml" description="This folder contains XML Files." example_xml="" example_xsl="" output_folder="" output_ext="">
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\passport\PassportExternalDtd.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\passport\PassportInternalDtd.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+		<file path="F:\My work\5th semester\Xml programming\XMLwriter 2\projects\examples\passport\PassportSchema.xml" description="" output_folder="" output_ext="" example_xml="" example_xsl=""/>
+	</group>
+	</group>
+</project>

@@ -1,0 +1,57 @@
+/* See LibraryCss.xml for details on how to use this CSS stylesheet with an XML file for display */
+
+name
+	{
+	font-family: verdana, arial;
+	font-size: 15pt;
+	font-weight:bold;
+	display: block;
+	margin-bottom: 5pt;
+}
+
+media
+	{
+	font-family: verdana, arial;
+	font-size: 12pt;
+	font-weight:bold;
+	color:green;
+	display:block;
+	margin-bottom: 20pt;
+	margin-top: 40pt;
+}
+
+title
+	{
+	font-family: verdana, arial;
+	font-size: 10pt;
+	font-weight:bold;
+	display:block;
+	margin-top: 5pt;
+}
+
+author,date,director
+	{
+	font-family: verdana, arial;
+	font-size: 10pt;
+	font-weight:normal;
+	display:block;
+	margin-left: 20pt;
+}
+
+online_url
+	{
+display: none;
+}
+
+callno
+	{
+	font-family: verdana, arial;
+	font-size: 10pt;
+	color:blue;
+	display:block;
+	margin-left: 20pt;
+}
+
+/*	This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/ */

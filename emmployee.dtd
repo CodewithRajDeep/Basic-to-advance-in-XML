@@ -1,0 +1,6 @@
+<!DOCTYPE employee [
+<!ELEMENT employee (child+)>
+<!ELEMENT child (name, gender)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+]>

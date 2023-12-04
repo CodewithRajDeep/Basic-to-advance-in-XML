@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<root>
+
+<element1/>
+<element2 name="attribute1"/>
+<element3>
+<argument type="string"/>
+<argument type="string"/>
+</element3>
+<element4>
+<description/>
+</element4>
+<element5>
+<class>
+<name/>
+<description>
+This class handles input
+</description>
+</class>
+</element5>
+
+
+<attribute name="input"/>
+<attribute name="text"/>
+<attribute name="number"/>
+
+
+<element6>
+<function name="exampleFunction">
+<return type="int"/>
+<argument type="string"/>
+<argument type="string"/>
+</function>
+</element6>
+
+<booleanResult1>true</booleanResult1>
+<booleanResult2>true</booleanResult2>
+</root>

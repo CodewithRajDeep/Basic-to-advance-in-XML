@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="courses">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="course" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="subject" type="xs:string"/>
+<xs:element name="courseNumber" type="xs:string"/>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="externalId" type="xs:string" minOccurs="0"/>
+<xs:element name="approvalType" type="approvalType" minOccurs="0"/>
+<xs:element name="permanentId" type="xs:string" minOccurs="0"/>
+<xs:element name="previousSubject" type="xs:string" minOccurs="0"/>
+<xs:element name="previousCourseNumber" type="xs:string" minOccurs="0"/>
+<xs:element name="designatorRequired" type="xs:boolean" minOccurs="0"/>
+<xs:element name="fractionalCreditAllowed" type="xs:boolean" minOccurs="0"/>
+
+<xs:element name="courseCredit">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="creditType" type="creditType"/>
+<xs:element name="creditUnitType" type="xs:string"/>
+<xs:element name="creditFormat" type="creditFormat"/>
+<xs:element name="fixedCredit" type="xs:decimal" minOccurs="0"/>
+<xs:element name="minimumCredit" type="xs:decimal" minOccurs="0"/>
+<xs:element name="maximumCredit" type="xs:decimal" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="subpartCredit" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="subpartId" type="xs:string"/>
+<xs:element name="creditType" type="creditType"/>
+<xs:element name="creditUnitType" type="xs:string"/>
+<xs:element name="creditFormat" type="creditFormat"/>
+<xs:element name="fixedCredit" type="xs:decimal" minOccurs="0"/>
+<xs:element name="minimumCredit" type="xs:decimal" minOccurs="0"/>
+<xs:element name="maximumCredit" type="xs:decimal" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:simpleType name="approvalType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="instructor"/>
+<xs:enumeration value="department"/>
+<xs:enumeration value="timeblock"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="creditFormat">
+<xs:restriction base="xs:string">
+<xs:enumeration value="arrangeHours"/>
+<xs:enumeration value="fixedUnit"/>
+<xs:enumeration value="variableMinMax"/>
+<xs:enumeration value="variableRange"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="creditType">
+<xs:restriction base="xs:string">
+<xs:enumeration value="collegiate"/>
+<xs:enumeration value="equivalent"/>
+<xs:enumeration value="mastersCredit"/>
+<xs:enumeration value="phdThesisCredit"/>
+</xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE help_links SYSTEM "Help Links.dtd">
+<help_links>
+<menu name="XML Training">
+<menu_item name="XML Training using XMLwriter"/>
+</menu>
+<menu name="XML Help">
+<menu_item name="Wattle Software's XML Guide"/>
+<menu_item name="MSXML XML Developer's Guide"/>
+<menu_item name="ZVON XML Tutorial"/>
+<menu_item name="Mulberry Tech XML Reference"/>
+<menu_item name="W3C XML Section"/>
+<menu_item name="W3C XML 1.0 Recommendation"/>
+</menu>
+<menu name="XSLT Help">
+<menu_item name="MSXML XSLT Developer's Guide"/>
+<menu_item name="MSXML XSLT Reference"/>
+<menu_item name="ZVON XSLT Tutorial"/>
+<menu_item name="Mulberry Tech XSLT Reference"/>
+<menu_item name="W3C XSL Section"/>
+<menu_item name="W3C XSLT 1.0 Recommendation"/>
+<menu_item name="XSL Frequently Asked Questions"/>
+</menu>
+<menu name="DTD/Schema Help">
+<menu_item name="Wattle Software's XML Guide"/>
+<menu_item name="MSXML XSD Schema Developer's Guide"/>
+<menu_item name="MSXML XSD Schema Reference"/>
+<menu_item name="MSXML XDR Schema Developer's Guide"/>
+<menu_item name="ZVON DTD Tutorial"/>
+<menu_item name="W3C XML Schema"/>
+<menu_item name="W3C Schema Part 0: Primer"/>
+<menu_item name="W3C Schema Part 1: Structures"/>
+<menu_item name="W3C Schema Part 2: Datatypes"/>
+</menu>
+<menu name="XPath Help">
+<menu_item name="MSXML XPath Guide"/>
+<menu_item name="MSXML XPath Reference"/>
+</menu>
+<menu name="MSXML Updates">
+<menu_item name="MSXML Updates"/>
+</menu>
+<menu name="Newsgroups/Mailing Lists">
+<menu_item name="comp.text.xml"/>
+<menu_item name="microsoft.public.xml"/>
+<menu_item name="XML-L Mailing List"/>
+<menu_item name="XSL-List Mailing List"/>
+</menu>
+</help_links>

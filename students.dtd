@@ -1,0 +1,16 @@
+
+<!ELEMENT students (student+)>
+<!ELEMENT student (externalId, firstName, lastName)>
+<!ATTLIST student middleName CDATA #IMPLIED email CDATA #IMPLIED>
+<!ELEMENT studentAcadAreaClass (acadAreaClass+)>
+<!ELEMENT acadAreaClass (academicArea, academicClass)>
+<!ELEMENT studentMajors (major+)>
+<!ELEMENT major (academicArea, code)>
+<!ELEMENT studentMinors (minor+)>
+<!ELEMENT minor (academicArea, code)>
+<!ELEMENT studentGroups (group+)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT studentAccomodations (accomodation+)>
+<!ELEMENT accommodation (#PCDATA)>
+
+<!ENTITY University "UPES">

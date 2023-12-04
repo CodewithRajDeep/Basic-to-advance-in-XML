@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!--What you can do with this file:
+	1. Check that it validates against the internal DTD.
+	   To validate, select 'Validate' from the Tools menu, or press F7.-->
+
+<!-- DOCTYPE declaration, defining the internal DTD subset.-->
+<!DOCTYPE passport_details [
+
+<!--The element 'first_name', denoted by (+), may be displayed one or more times.-->
+<!ELEMENT passport_details (birth_cert,last_name,first_name+,address)>
+<!ELEMENT birth_cert (#PCDATA)>
+<!--The element 'birth_cert' conatins an entity '&cert;' which references data that
+	is stored in a text file at the location	'http://www.xmlwriter.net/birth_cert.txt'.
+	Entities help to reduce the entry of repetitive	or large quantities of information.-->
+<!ENTITY cert SYSTEM "http://www.xmlwriter.net/examples/birth_cert.txt">
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT first_name (#PCDATA)>
+<!--The element 'contact_no', denoted by (?), may be displayed zero or one times.
+	The element 'email', denoted by (*), may be displayed zero or more times.-->
+<!ELEMENT address (street,(city|town),(state|province),(ZIP|postal_code),country,contact_no?,email*)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT town (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT province (#PCDATA)>
+<!ELEMENT ZIP (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT contact_no (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+]>
+<!--End of the internal DTD subset.-->
+
+<passport_details>
+	<birth_cert>&cert;</birth_cert>
+	<last_name>Citizen</last_name>
+	<first_name>Jo</first_name>
+	<address>
+		<street>X Street</street>
+		<city>X City</city>
+		<state>X State</state>
+		<postal_code>XXXX</postal_code>
+		<country>X Country</country>
+	<email>jo@citizen.com</email>
+	</address>
+</passport_details>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

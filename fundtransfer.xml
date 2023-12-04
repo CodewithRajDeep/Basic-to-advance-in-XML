@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funds_transfer>
+
+  <transaction_reference_number>756238191464594</transaction_reference_number>
+  <from_account>9528416375824524</from_account>
+  <to_account>98765432101214241</to_account>
+  <amount>10000000</amount>
+  <date_and_time>2023-09-20 T12:00:00 </date_and_time>
+</funds_transfer>

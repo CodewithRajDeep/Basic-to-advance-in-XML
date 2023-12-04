@@ -1,0 +1,5 @@
+<!ELEMENT help_links (menu*)>
+<!ELEMENT menu (menu_item*)>
+<!ELEMENT menu_item EMPTY>
+<!ATTLIST menu name CDATA #REQUIRED>
+<!ATTLIST menu_item name CDATA #REQUIRED>

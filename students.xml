@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students>
+
+<student externalId="1234567890" firstName="John" lastName="Doe">
+<middleName>David</middleName>
+<email>john.doe@example.com</email>
+
+<studentAcadAreaClass>
+<acadAreaClass academicArea="Computer Science" academicClass="BSc"></acadAreaClass>
+<acadAreaClass academicArea="Mathematics" academicClass="Minor"></acadAreaClass>
+</studentAcadAreaClass>
+
+<studentMajors>
+<major academicArea="Computer Science" code="CS101"></major>
+<major academicArea="Mathematics" code="MATH101"></major>
+</studentMajors>
+
+<studentMinors>
+<minor academicArea="Mathematics" code="MATH201"></minor>
+</studentMinors>
+
+<studentGroups>
+<group>CS Club</group>
+<group>Math Club</group>
+</studentGroups>
+
+<studentAccomodations>
+<accomodation>Hostel</accomodation>
+</studentAccomodations>
+</student>
+
+<student externalId="9876543210" firstName="Jane" lastName="Doe">
+<studentAcadAreaClass>
+<acadAreaClass academicArea="Electrical Engineering" academicClass="BSc"></acadAreaClass>
+</studentAcadAreaClass>
+<studentMajors>
+<major academicArea="Electrical Engineering" code="EE101"></major>
+</studentMajors>
+</student>
+
+</students>

@@ -1,0 +1,172 @@
+XML declaration
+<?xml version="" ?>
+XML declaration (including all attributes)
+<?xml version="" encoding="" standalone="" ?>
+XHTML 1.0 Strict DTD
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+XHTML 1.0 Transitional DTD
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+XHTML 1.0 Frameset DTD
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "DTD/xhtml1-frameset.dtd">
+document root element
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"></html>
+anchor
+<a></a>
+abbreviated form
+<abbr></abbr>
+acronym
+<acronym></acronym>
+information on author
+<address></address>
+client-side image map area
+<area shape="" alt="" />
+bold text style
+<b></b>
+document base URI
+<base href="" />
+I18N BiDi over-ride
+<bdo dir=""></bdo>
+large text style
+<big></big>
+long quotation
+<blockquote></blockquote>
+document body
+<body></body>
+forced line break
+<br />
+push button
+<button type=""></button>
+table caption
+<caption></caption>
+citation
+<cite></cite>
+computer code fragment
+<code></code>
+table column
+<col span="" />
+table column group
+<colgroup span="1"></colgroup>
+definition description
+<dd></dd>
+deleted text
+<del></del>
+instance definition
+<dfn></dfn>
+generic language/style container
+<div></div>
+definition list
+<dl></dl>
+definition term
+<dt></dt>
+emphasis
+<em></em>
+form control group
+<fieldset></fieldset>
+interactive form
+<form action="" method=""></form>
+subwindow
+<frame frameborder="" scrolling="" />
+window subdivision
+<frameset></frameset>
+heading 1
+<h1></h1>
+heading 2
+<h2></h2>
+heading 3
+<h3></h3>
+heading 4
+<h4></h4>
+heading 5
+<h5></h5>
+heading 6
+<h6></h6>
+document head
+<head></head>
+horizontal rule
+<hr />
+italic text style
+<i></i>
+inline subwindow
+<iframe frameborder="" scrolling=""></iframe>
+embedded image
+<img src="" alt="" />
+form control
+<input type="" />
+inserted text
+<ins></ins>
+text to be entered by the user 
+<kbd></kbd>
+form field label text
+<label></label>
+fieldset legend
+<legend></legend>
+list item
+<li></li>
+a media-independent link
+<link></link>
+client-side image map
+<map id="" name=""></map>
+generic metainformation
+<meta content="" />
+alternate content container for non frame-based rendering
+<noframes></noframes>
+alternate content container for non script-based rendering
+<noscript></noscript>
+generic embedded object
+<object></object>
+ordered list
+<ol></ol>
+option group
+<optgroup></optgroup>
+selectable choice
+<option></option>
+paragraph
+<p></p>
+named property value
+<param id="" name="" valuetype="" />
+preformatted text
+<pre></pre>
+short inline quotation
+<q></q>
+sample program output, scripts, etc.
+<samp></samp>
+script statements
+<script type=""></script>
+option selector
+<select></select>
+small text style
+<small></small>
+generic language/style container
+<span></span>
+strong emphasis
+<strong></strong>
+style info
+<style type=""></style>
+subscript
+<sub></sub>
+superscript
+<sup></sup>
+table
+<table></table>
+table body
+<tbody></tbody>
+table data cell
+<td rowspan="" colspan=""></td>
+multi-line text field
+<textarea rows="" cols=""></textarea>
+table footer
+<tfoot></tfoot>
+table header cell
+<th rowspan="" colspan=""></th>
+table header
+<thead></thead>
+document title
+<title></title>
+table row
+<tr></tr>
+teletype or monospaced text style
+<tt></tt>
+unordered list
+<ul></ul>
+instance of a variable or program argument
+<var></var>

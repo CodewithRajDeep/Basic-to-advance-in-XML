@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<library style="library.css">
+...
+</library>
+
+<books>
+<book id="1" name="Anna Karenina" author="Leo Tolstoy">
+<ISBN>794-0-395-48931-3</ISBN>
+</book>
+
+<book id="2" name="Harry Potter and the Sorcerer's Stone" author="J.K. Rowling">
+<ISBN>794-0-590-39185-7</ISBN>
+</book>
+
+<book id="3" name="Pride and Prejudice" author="Jane Austen">
+<ISBN>794-0-553-40049-8</ISBN>
+</book>
+
+<book id="4" name="To Kill a Mockingbird" author="Harper Lee">
+<ISBN>794-0-395-48931-2</ISBN>
+</book>
+
+<book id="5" name="1984" author="George Orwell">
+<ISBN>794-0-395-48931-9</ISBN>
+</book>
+
+<book id="6" name="The Great Gatsby" author="F. Scott Fitzgerald">
+<ISBN>794-0-395-48931-4</ISBN>
+</book>
+
+<book id="7" name="Beloved" author="Toni Morrison">
+<ISBN>794-0-395-48931-1</ISBN>
+</book>
+
+<book id="8" name="The Kite Runner" author="Khaled Hosseini">
+<ISBN>794-0-395-48931-6</ISBN>
+</book>
+
+<book id="9" name="The Alchemist" author="Paulo Coelho">
+<ISBN>794-0-395-48931-5</ISBN>
+</book>
+
+<book id="10" name="The Hitchhiker's Guide to the Galaxy" author="Douglas Adams">
+<ISBN>794-0-395-48931-8</ISBN>
+</book>
+</books>
+
+<members>
+<member id="1" password="password" name="Eleven" age="30">
+<email>eleven.work@google.com</email>
+<phone_number>123-564-6729</phone_number>
+<pannumber> 267AYXZ421 </pannumber>
+</member>
+
+<member id="2" password="password" name="Jena Jane" age="25">
+<email> jena.jane@google.com </email>
+<phone_number>123-564-6729</phone_number>
+<passportnumber> 1232425873</passportnumber>
+</member>
+
+<member id="3" password="password" name="Peter Parker" age="20">
+<email>spiderman.duty@google.com</email>
+<phone_number>123-564-6729</phone_number>
+<pannumber> 267AYXZ421 </pannumber>
+</member>
+
+<member id="4" password="password" name="Bruce Wayne" age="35">
+<email>batman@example.com</email>
+<phone_number>123-564-6729</phone_number>
+<passportnumber> 1232425873</passportnumber>
+</member>
+
+<member id="5" password="password" name="Tony Stark" age="40">
+<email>ironman@example.com</email>
+<phone_number>123-564-6729</phone_number>
+</member>
+
+<member id="6" password="password" name="Clark Kent" age="32">
+<email>superman@example.com</email>
+<phone_number>123-564-6729</phone_number>
+<passportnumber> 1232425873</passportnumber>
+</member>
+
+<member id="7" password="password" name="Diana Prince" age="30">
+<email>wonderwoman@google.com</email>
+<phone_number>123-564-6729</phone_number>
+</member>
+
+<member id="8" password="password" name="Wanda Maximoff" age="25">
+<email>wanda.work@google.com</email>
+<phone_number>123-564-6729</phone_number>
+<pannumber> 267AYXZ421 </pannumber>
+</member>
+
+<member id="9" password="password" name="Stephen Strange" age="45">
+<email>vincentstrange@google.com</email>
+<phone_number>123-564-6729</phone_number>
+<passportnumber> 1232425873</passportnumber>
+</member>
+
+<member id="10" password="password" name="Bruce Banner" age="40">
+<email> hulk.bruce@gmail.com</email>
+<phone_number>123-564-6729</phone_number>
+</member>
+</members>
+</library>

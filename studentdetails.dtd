@@ -1,0 +1,20 @@
+<!DOCTYPE studentDetails SYSTEM "studentDetails.dtd">
+
+<!-- studentDetails.dtd -->
+
+<!ELEMENT studentDetails (student+)>
+<!ELEMENT student (firstName, middleName?, lastName, SAP_ID, email, address, phone, yearOfJoining, locality, city, state, country, pinCode)>
+<!ATTLIST student mandatory (yes) #REQUIRED>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT SAP_ID (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT yearOfJoining (#PCDATA)>
+<!ELEMENT locality (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT pinCode (#PCDATA)>

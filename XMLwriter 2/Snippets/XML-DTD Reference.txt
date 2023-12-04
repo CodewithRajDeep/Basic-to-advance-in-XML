@@ -1,0 +1,120 @@
+XML declaration
+<?xml version="" ?>
+XML declaration (including all attributes)
+<?xml version="" encoding="" standalone="" ?>
+internal DTD
+<!DOCTYPE root_element [\ninsert DTD here\n]>
+private external DTD
+<!DOCTYPE root_element SYSTEM "DTD_location">
+public external DTD
+<!DOCTYPE root_element PUBLIC "DTD_name" "DTD_location">
+element-PCDATA
+<!ELEMENT name (#PCDATA)>
+element-EMPTY
+<!ELEMENT name EMPTY>
+element-ANY
+<!ELEMENT name ANY>
+element-child
+<!ELEMENT parent_name (child_name)>
+element-sequence
+<!ELEMENT parent_name (child_name_1,child_name_2,child_name_3)>
+element-optional children
+<!ELEMENT parent_name (child_name?)>
+element-zero/more children
+<!ELEMENT parent_name (child_name*)>
+element - one/more children
+<!ELEMENT parent_name (child_name+)>
+element - choice
+<!ELEMENT parent_name (child_name_1|child_name_2)>
+element - mixed content
+<!ELEMENT parent_name (#PCDATA|child_name_1)*>
+attribute-list declaration
+<!ATTLIST element_name attribute_name attribute_type default_value>
+attribute-CDATA IMPLIED
+<!ATTLIST element_name attribute_name CDATA #IMPLIED>
+attribute-CDATA REQUIRED
+<!ATTLIST element_name attribute_name CDATA #REQUIRED>
+attribute-CDATA FIXED
+<!ATTLIST element_name attribute_name CDATA #FIXED "default_value">
+attribute-ID IMPLIED
+<!ATTLIST element_name attribute_name ID #IMPLIED>
+attribute-ID REQUIRED
+<!ATTLIST element_name attribute_name ID #REQUIRED>
+attribute-IDREF IMPLIED
+<!ATTLIST element_name attribute_name IDREF #IMPLIED>
+attribute-IDREF REQUIRED
+<!ATTLIST element_name attribute_name IDREF #REQUIRED>
+attribute-IDREF FIXED
+<!ATTLIST element_name attribute_name IDREF #FIXED "default_value">
+attribute-IDREFS IMPLIED
+<!ATTLIST element_name attribute_name IDREFS #IMPLIED>
+attribute-IDREFS REQUIRED
+<!ATTLIST element_name attribute_name IDREFS #REQUIRED>
+attribute-IDREFS FIXED
+<!ATTLIST element_name attribute_name IDREFS #FIXED "default_value">
+attribute-NMTOKEN IMPLIED
+<!ATTLIST element_name attribute_name NMTOKEN #IMPLIED>
+attribute-NMTOKEN REQUIRED
+<!ATTLIST element_name attribute_name NMTOKEN #REQUIRED>
+attribute-NMTOKEN FIXED
+<!ATTLIST element_name attribute_name NMTOKEN #FIXED "default_value">
+attribute-NMTOKENS IMPLIED
+<!ATTLIST element_name attribute_name NMTOKENS #IMPLIED>
+attribute-NMTOKENS REQUIRED
+<!ATTLIST element_name attribute_name NMTOKENS #REQUIRED>
+attribute-NMTOKENS FIXED
+<!ATTLIST element_name attribute_name NMTOKENS #FIXED "default_value">
+attribute-enumerated IMPLIED
+<!ATTLIST element_name attribute_name (choice_1|choice_2) #IMPLIED>
+attribute-enumerated REQUIRED
+<!ATTLIST element_name attribute_name (choice_1|choice_2) #REQUIRED>
+attribute-enumerated FIXED
+<!ATTLIST element_name attribute_name (choice_1|choice_2) #FIXED "default_value">
+attribute-ENTITY IMPLIED
+<!ATTLIST element_name attribute_name ENTITY #IMPLIED>
+attribute-ENTITY REQUIRED
+<!ATTLIST element_name attribute_name ENTITY #REQUIRED>
+attribute-ENTITY FIXED
+<!ATTLIST element_name attribute_name ENTITY #FIXED "default_value">
+attribute-ENTITIES IMPLIED
+<!ATTLIST element_name attribute_name ENTITIES #IMPLIED>
+attribute-ENTITIES REQUIRED
+<!ATTLIST element_name attribute_name ENTITIES #REQUIRED>
+attribute-ENTITIES FIXED
+<!ATTLIST element_name attribute_name ENTITIES #FIXED "default_value">
+attribute-NOTATION IMPLIED
+<!ATTLIST element_name attribute_name NOTATION (choice_1|choice_2) #IMPLIED>
+attribute-NOTATION REQUIRED
+<!ATTLIST element_name attribute_name NOTATION (choice_1|choice_2) #REQUIRED>
+attribute-NOTATION FIXED
+<!ATTLIST element_name attribute_name NOTATION (choice_1|choice_2) #FIXED "default_value">
+general entity-internal parsed
+<!ENTITY entity_name "replacement text">
+general entity-external parsed (private)
+<!ENTITY entity_name SYSTEM "URI">
+general entity-external parsed (public)
+<!ENTITY entity_name PUBLIC "public_ID" "URI">
+general entity-external unparsed (private)
+<!ENTITY entity_name SYSTEM "URI" NDATA notation_type>
+general entity-external unparsed (public)
+<!ENTITY entity_name PUBLIC "public_ID" "URI" NDATA notation_type>
+parameter entity-internal parsed
+<!ENTITY % entity_name "entity_value">
+parameter entity-external parsed (private)
+<!ENTITY % entity_name SYSTEM "URI">
+parameter entity-external parsed (public)
+<!ENTITY % entity_name PUBLIC "public_ID" "URI">
+notation (private)
+<!NOTATION name SYSTEM "URI">
+notation (public)
+<!NOTATION name PUBLIC "public_ID" "URI">
+CDATA section
+<![CDATA[\nany characters (including markup)\n]]>
+processing instruction
+<?PI-target ?>
+conditional section-IGNORE
+<![IGNORE[\nmarkup declarations\n]]>
+conditional section-INCLUDE
+<![INCLUDE[\nmarkup declarations\n]]>
+comments
+<!-- comments -->

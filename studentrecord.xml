@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentrecord>
+
+<students>
+
+<student id="1"> <name>John </name>
+<rollnumber>R21422112345</rollnumber>
+<sapid>500094513</sapid>
+<email>john@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>94105</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="2"> <name> Steve </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>steve@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="3"> <name> Devi </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>devi@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="4"> <name> Steve </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>steve@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="5"> <name> Maxtern </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>steve@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="6"> <name> Trevor </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>steve@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="7"> <name> Trevor </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>steve@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+<student id="8"> <name> Ani </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>ani@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+    <student id="9"> <name> Arick </name>
+        <rollnumber>R21422114628</rollnumber>
+        <sapid>500094543</sapid>
+        <email>arick@google.com</email>
+        <yearofjoining>2021</yearofjoining>
+        
+        <address>
+        <street>123 Main Street</street>
+        <housenumber>100</housenumber>
+        <locality>Downtown</locality>
+        <city>San Francisco</city>
+        <state>California</state>
+        <country>United States</country>
+        <pincode>123456</pincode>
+        </address>
+        
+        <contactnumber>123-456-7890</contactnumber>
+        </student>
+
+        <student id="10"> <name> Yusaf </name>
+            <rollnumber>R21422114628</rollnumber>
+            <sapid>500094543</sapid>
+            <email>yusaf@google.com</email>
+            <yearofjoining>2021</yearofjoining>
+            
+            <address>
+            <street>123 Main Street</street>
+            <housenumber>100</housenumber>
+            <locality>Downtown</locality>
+            <city>San Francisco</city>
+            <state>California</state>
+            <country>United States</country>
+            <pincode>123456</pincode>
+            </address>
+            
+            <contactnumber>123-456-7890</contactnumber>
+            </student>
+
+
+ <student id="11"> <name> Dany </name>
+  <rollnumber>R21422114628</rollnumber>
+  <sapid>500094543</sapid>
+  <email>dany@google.com</email>
+ <yearofjoining>2021</yearofjoining>
+                
+ <address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+ <locality>Downtown</locality>
+ <city>San Francisco</city>
+ <state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+  </address>
+                
+<contactnumber>123-456-7890</contactnumber>
+ </student>
+
+
+<student id="12"> <name> Trevor </name>
+  <rollnumber>R21422114628</rollnumber>
+  <sapid>500094543</sapid>
+ <email>steve@google.com</email>
+ <yearofjoining>2021</yearofjoining>
+                    
+ <address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+
+<student id="13"> <name> Saif </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>saif@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+
+
+<student id="14"> <name> Zaid </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>zaid@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+
+
+<student id="15"> <name> Daniel </name>
+<rollnumber>R21422114628</rollnumber>
+<sapid>500094543</sapid>
+<email>daniel@google.com</email>
+<yearofjoining>2021</yearofjoining>
+
+<address>
+<street>123 Main Street</street>
+<housenumber>100</housenumber>
+<locality>Downtown</locality>
+<city>San Francisco</city>
+<state>California</state>
+<country>United States</country>
+<pincode>123456</pincode>
+</address>
+
+<contactnumber>123-456-7890</contactnumber>
+</student>
+
+</students>
+</studentrecord>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+
+<!--See LibrarySchema.xml for details on how to use this XSD Schema for validation-->
+
+<!--The 'schema' element indicates that the syntax used in the XML Schema,
+	prefixed with 'xsd:', comes from the "http://www.w3.org/2001/XMLSchema" namespace.-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!--The 'author' element contains a sequence of child elements 'first-name' and
+		'last-name'. These child elements are defined at lines 125 and 98. Elements
+		that contain other elements are of complex type.-->
+	<xsd:element name="author">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="first-name"/>
+				<xsd:element ref="last-name"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--The 'book' element contains a sequence of child elements.
+		See the end of file	for each child's definition.-->
+	<xsd:element name="book">
+		<xsd:complexType>
+			<xsd:sequence>
+				<!--The default value of minOccurs and maxOccurs is 1 if no other
+					value is specified.-->
+				<xsd:element ref="publisher"/>
+				<xsd:element ref="title"/>
+				<xsd:element ref="edition" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="author" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element ref="isbn"/>
+				<xsd:element ref="callno"/>
+				<xsd:element ref="online_url" minOccurs="0" maxOccurs="1"/>
+			</xsd:sequence>
+			<!--'status' is an attribute of the element 'book', and is an enumerated
+				type. See line 117 for the possible choices of 'bookstatustype'.
+				By default attributes are optional. 'use' allows you to specify
+				whether the attribute is 'optional', 'required', or 'prohibited'.-->
+			<xsd:attribute name="status" use="required" type="bookstatustype"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--The 'director' element contains a child element 'name'.-->
+	<xsd:element name="director">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="name"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--The 'library' element references the complex type elements 'book',
+		'journal', and 'video'.-->
+	<xsd:element name="library">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="name"/>
+				<xsd:element ref="book" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="journal" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="video" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--The 'video' element contains a sequence of child elements.
+		See the end of file	for each child's definition.-->
+	<xsd:element name="video">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="title"/>
+				<xsd:element ref="year"/>
+				<xsd:element ref="director" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element ref="genre" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element ref="callno"/>
+			</xsd:sequence>
+			<!--'status' is an attribute of the element 'video', and is an enumerated
+				type. See line 104 for the possible choices of 'videostatustype'.-->
+			<xsd:attribute name="status" use="required" type="videostatustype"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--The 'journal' element contains  a sequence of child elements.
+		See the end of file	for each child's definition.-->
+	<xsd:element name="journal">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="title"/>
+				<xsd:element ref="date"/>
+				<xsd:element ref="author" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="callno"/>
+			</xsd:sequence>
+			<!--'series' is an attribute of the element 'journal', and may contain
+				a string ie. letters, numbers, or symbols.-->
+			<xsd:attribute name="series" use="required" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!--Define simple type elements.-->
+	<xsd:element name="last-name" type="xsd:string"/>
+	<xsd:element name="publisher" type="xsd:string"/>
+	<xsd:element name="title" type="xsd:string"/>
+	
+	<!--Define the attribute values for 'status', an enumerated attribute
+		of the 'video' element.-->
+	<xsd:simpleType name="videostatustype">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="available"/>
+			<xsd:enumeration value="on_loan"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<!--Define simple type elements.-->
+	<xsd:element name="isbn" type="xsd:string"/>
+	<xsd:element name="online_url" type="xsd:string"/>
+	
+	<!--Define the attribute values for 'status', an enumerated attribute
+		of the 'book' element.-->
+	<xsd:simpleType name="bookstatustype">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="available"/>
+			<xsd:enumeration value="on_loan"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<!--Define simple type elements.-->
+	<xsd:element name="first-name" type="xsd:string"/>
+	<xsd:element name="edition" type="xsd:string"/>
+	<xsd:element name="name" type="xsd:string"/>
+	<xsd:element name="genre" type="xsd:string"/>
+	<xsd:element name="year" type="xsd:string"/>
+	<xsd:element name="date" type="xsd:string"/>
+	<xsd:element name="callno" type="xsd:string"/>
+	
+</xsd:schema>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

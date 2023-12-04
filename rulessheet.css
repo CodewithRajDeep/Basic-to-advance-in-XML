@@ -1,0 +1,12 @@
+body {
+background-image: url('');
+background-position: center 50%;
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+
+[class="green-Move"] {
+color: green;
+margin-top: 25px;
+margin-left: 15px;
+}

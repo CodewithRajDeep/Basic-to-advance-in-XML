@@ -1,0 +1,18 @@
+<!DOCTYPE library SYSTEM "library.dtd">
+
+<!-- library.dtd -->
+
+<!ELEMENT library (books, members)>
+<!ELEMENT books (book+)>
+<!ELEMENT book (id, name, author+, ISBN+)>
+<!ATTLIST book mandatory (yes) #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+
+<!ELEMENT members (member+)>
+<!ELEMENT member (id, password, name, age, email?, phoneNumber*, panNumber?, passportNumber?)>
+<!ATTLIST member mandatory (yes) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT panNumber (#PCDATA)>
+<!ELEMENT passportNumber (#PCDATA)>

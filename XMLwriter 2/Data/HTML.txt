@@ -1,0 +1,92 @@
+p
+a href=""
+img src="" alt=""/
+abbr
+acronym
+address
+applet
+area shape="" alt=""/
+b
+base href=""/
+bdo
+big
+blockquote
+body
+br/
+button type=""
+caption
+center
+cite
+code
+col
+colgroup
+dd
+del
+dfn
+div
+dl
+dt
+em
+fieldset
+font
+form action="" method=""
+frame
+frameset
+h1
+h2
+h3
+h4
+h5
+h6
+head
+hr/
+html
+i
+iframe
+img src="" alt=""/
+input type=""
+ins
+isindex
+kbd
+label
+legend
+li
+link
+map
+meta
+noframes
+noscript
+object
+ol
+optgroup
+option
+p
+param
+pre
+q
+s
+samp
+script
+select
+small
+span
+strike
+strong
+style
+sub
+sup
+table
+tbody
+td
+td rowspan="" colspan=""
+textarea
+tfoot
+th
+th rowspan="" colspan=""
+thead
+title
+tr
+tt
+u
+ul
+var

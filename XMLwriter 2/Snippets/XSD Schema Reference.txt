@@ -1,0 +1,182 @@
+XML declaration
+<?xml version="" ?>
+XML declaration (including all attributes)
+<?xml version="" encoding="" standalone="" ?>
+schema declaration
+<schema></schema>
+schema declaration (including all attributes)
+<schema attributeFormDefault="" blockDefault="" elementFormDefault="" finalDefault="" id="" targetNamespace="" version="" xml:lang=""></schema>
+all
+<all></all>
+all (including all attributes)
+<all id="" maxOccurs="" minOccurs=""></all>
+annotation
+<annotation></annotation>
+annotation (including all attributes)
+<annotation id=""></annotation>
+any
+<any></any>
+any (including all attributes)
+<any id="" maxOccurs="" minOccurs="" namespace="" processContents=""></any>
+anyAttribute
+<anyAttribute></anyAttribute>
+anyAttribute (including all attributes)
+<anyAttribute id="" namespace="" processContents=""></anyAttribute>
+appinfo
+<appinfo></appinfo>
+appinfo (including all attributes)
+<appinfo source=""></appinfo>
+attribute
+<attribute></attribute>
+attribute (including all attributes)
+<attribute default="" fixed="" form="" id="" name="" ref="" type="" use=""></attribute>
+attributeGroup
+<attributeGroup ref=""></attributeGroup>
+attributeGroup (including all attributes)
+<attributeGroup id="" name="" ref=""></attributeGroup>
+choice
+<choice></choice>
+choice (including all attributes)
+<choice id="" maxOccurs="" minOccurs=""></choice>
+complexContent
+<complexContent></complexContent>
+complexContent (including all attributes)
+<complexContent id="" mixed=""></complexContent>
+complexType
+<complexType></complexType>
+complexType (including all attributes)
+<complexType abstract="" block="" final="" id="" mixed="" name=""></complexType>
+documentation
+<documentation></documentation>
+documentation (including all attributes)
+<documentation source="" xml:lang=""></documentation>
+duration
+<duration value=""></duration>
+duration (including all attributes)
+<duration id="" value="" fixed=""></duration>
+element
+<element></element>
+element (including all attributes)
+<element abstract="" block="" default="" final="" fixed="" form="" id="" maxOccurs="" minOccurs="" name="" nillable="" ref="" substitutionGroup="" type=""></element>
+encoding
+<encoding value=""></encoding>
+encoding (including all attributes)
+<encoding id="" value="" fixed=""></encoding>
+enumeration
+<enumeration value=""></enumeration>
+enumeration (including all attributes)
+<enumeration id="" value="" fixed=""></enumeration>
+extension
+<extension base=""></extension>
+extension (including all attributes)
+<extension base="" id=""></extension>
+field
+<field xpath=""></field>
+field (including all attributes)
+<field id="" xpath=""></field>
+group
+<group name=""></group>
+import
+<import></import>
+import (including all attributes)
+<import id="" namespace="" schemaLocation=""></import>
+include
+<include schemaLocation=""></include>
+include (including all attributes)
+<include id="" schemaLocation=""></include>
+length
+<length value=""></length>
+length (including all attributes)
+<length id="" value="" fixed=""></length>
+list
+<list></list>
+list (including all attributes)
+<list id="" itemType=""></list>
+key
+<key name=""></key>
+key (including all attributes)
+<key id="" name=""></key>
+keyref
+<keyref name="" refer=""></keyref>
+keyref (including all attributes)
+<keyref id="" name="" refer=""></keyref>
+maxExclusive
+<maxExclusive value=""></maxExclusive>
+maxExclusive (including all attributes)
+<maxExclusive id="" value="" fixed=""></maxExclusive>
+maxInclusive
+<maxInclusive value=""></maxInclusive>
+maxInclusive (including all attributes)
+<maxInclusive id="" value="" fixed=""></maxInclusive>
+maxLength
+<maxLength value=""></maxLength>
+maxLength (including all attributes)
+<maxLength id="" value="" fixed=""></maxLength>
+minExclusive
+<minExclusive value=""></minExclusive>
+minExclusive (including all attributes)
+<minExclusive id="" value="" fixed=""></minExclusive>
+minInclusive
+<minInclusive value=""></minInclusive>
+minInclusive (including all attributes)
+<minInclusive id="" value="" fixed=""></minInclusive>
+minLength
+<minLength value=""></minLength>
+minLength (including all attributes)
+<minLength id="" value="" fixed=""></minLength>
+notation
+<notation name="" public=""></notation>
+notation (including all attributes)
+<notation id="" name="" public="" system=""></notation>
+pattern
+<pattern value=""></pattern>
+pattern (including all attributes)
+<pattern id="" value="" fixed=""></pattern>
+period
+<period value=""></period>
+period (including all attributes)
+<period id="" value="" fixed=""></period>
+precision
+<precision value=""></precision>
+precision (including all attributes)
+<precision id="" value="" fixed=""></precision>
+redefine
+<redefine schemaLocation=""></redefine>
+redefine (including all attributes)
+<redefine id="" schemaLocation=""></redefine>
+restriction
+<restriction></restriction>
+restriction (including all attributes)
+<restriction id="" base=""></restriction>
+scale
+<scale value=""></scale>
+scale (including all attributes)
+<scale id="" value="" fixed=""></scale>
+selector
+<selector xpath=""></selector>
+selector (including all attributes)
+<selector id="" xpath=""></selector>
+sequence
+<sequence></sequence>
+sequence (including all attributes)
+<sequence id="" maxOccurs="" minOccurs=""></sequence>
+simpleContent
+<simpleContent></simpleContent>
+simpleContent (including all attributes)
+<simpleContent id=""></simpleContent>
+simpleType
+<simpleType></simpleType>
+simpleType (including all attributes)
+<simpleType final="" id="" name=""></simpleType>
+union
+<union></union>
+union (including all attributes)
+<union memberTypes="" id=""></union>
+unique
+<unique name=""></unique>
+unique (including all attributes)
+<unique id="" name=""></unique>
+whiteSpace
+<whiteSpace value=""></whiteSpace>
+whiteSpace (including all attributes)
+<whiteSpace id="" value="" fixed=""></whiteSpace>

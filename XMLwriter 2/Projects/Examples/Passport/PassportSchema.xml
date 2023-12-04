@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<!--What you can do with this file:
+	1. Check that it validates against the XSD Schema, Passport.xsd, assigned to it.
+	   To validate, select 'Validate' from the Tools menu, or press F7.-->
+
+<!--XSD Schema declaration.
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" indicates to the
+	XML parser that the following attribute, xsi:noNamespaceSchemaLocation,
+	comes from the http://www.w3.org/2001/XMLSchema-instance namespace.-->
+<passport_details
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Passport.xsd">
+	<birth_cert></birth_cert>
+	<last_name>Citizen</last_name>
+	<first_name>Jo</first_name>
+	<address>
+		<street>X Street</street>
+		<city>X City</city>
+		<state>X State</state>
+		<postal_code>XXXX</postal_code>
+		<country>X Country</country>
+	<email>jo@citizen.com</email>
+	</address>
+</passport_details>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

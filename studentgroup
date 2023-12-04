@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="students">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="student" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="externalId" type="xs:string"/>
+<xs:element name="firstName" type="xs:string"/>
+<xs:element name="lastName" type="xs:string"/>
+<xs:element name="middleName" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+
+<xs:element name="studentAcadAreaClass" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="academicArea" type="xs:string"/>
+<xs:element name="academicClass" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="studentMajors" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="academicArea" type="xs:string"/>
+<xs:element name="code" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="studentMinors" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="academicArea" type="xs:string"/>
+<xs:element name="code" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="studentGroups" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="group" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="studentAccomodations" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="accomodation" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:external schemaLocation="university.xsd"/>
+
+</xs:schema>

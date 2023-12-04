@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<!--What you can do with this file:
+	1. Check that it validates against the DTD, Library.dtd, assigned to it.
+	   To validate, select 'Validate' from the Tools menu, or press F7.-->
+
+<!-- DOCTYPE declaration, specifying an external DTD file, Library.dtd.-->
+<!DOCTYPE library SYSTEM "Library.dtd">
+
+<library>
+	<name>Northmead Local Library</name>
+	<book status="available">
+		<publisher>Wiley International Edition</publisher>
+		<title>Circuits, Devices and Systems</title>
+		<edition>5th</edition>
+		<author>
+			<first-name>Ralph J</first-name>
+			<last-name>Smith</last-name>
+		</author>
+		<author>
+			<first-name>Richard C</first-name>
+			<last-name>Dorf</last-name>
+		</author>
+		<isbn>0471552216</isbn>
+		<callno>005.133/C</callno>
+		<online_url>http://library/online_books/005133C.html</online_url>
+	</book>
+	<book status="on_loan">
+		<publisher>Prentice Hall PTR</publisher>
+		<title>The C Programming Language</title>
+		<edition>2nd</edition>
+		<author>
+			<first-name>Brian W</first-name>
+			<last-name>Kernighan</last-name>
+		</author>
+		<author>
+			<first-name>Dennis M</first-name>
+			<last-name>Ritchie</last-name>
+		</author>
+		<isbn>0131103628</isbn>
+		<callno>005.133/C2</callno>
+		<online_url>http://library/online_books/005133C2.html</online_url>
+	</book>
+	<journal series="XML Users Journal">
+		<title>XML Users Journal August 1999</title>
+		<date>1999-08-01</date>
+		<callno>005.133/C</callno>
+	</journal>
+	<video status="available">
+		<title>Lord of the Rings: The Fellowship of the Ring</title>
+		<year>2001</year>
+		<director>
+			<name>Peter Jackson</name>
+		</director>
+		<genre>fantasy</genre>
+		<genre>adventure</genre>
+		<callno>643.11/L</callno>
+	</video>
+</library>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+
+<library>
+
+<books>
+
+<book id="1" name="The Lord of the Rings" author="J.R.R. Tolkien" ISBN="978-0-395-58029-2" mandatory="yes"/>
+<book id="2" name="Harry Potter and the Sorcerer's Stone" author="J.K. Rowling" ISBN="978-0-590-39187-4" mandatory="yes"/>
+<book id="3" name="Pride and Prejudice" author="Jane Austen" ISBN="978-0-451-52801-2" mandatory="yes"/>
+<book id="4" name="To Kill a Mockingbird" author="Harper Lee" ISBN="978-0-449-22610-3" mandatory="yes"/>
+<book id="5" name="1984" author="George Orwell" ISBN="978-0-451-52493-3" mandatory="yes"/>
+<book id="6" name="The Great Gatsby" author="F. Scott Fitzgerald" ISBN="978-0-451-52637-4" mandatory="yes"/>
+<book id="7" name="Beloved" author="Toni Morrison" ISBN="978-0-395-64754-0" mandatory="yes"/>
+<book id="8" name ="The Handmaid's Tale" author="Margaret Atwood" ISBN="978-0-316-06109-2" mandatory="yes"/>
+<book id="9" name="The Kite Runner" author="Khaled Hosseini" ISBN="978-0-375-75334-2" mandatory="yes"/>
+<book id="10" name="One Hundred Years of Solitude" author="Gabriel García Márquez" ISBN="978-0-375-75191-1" mandatory="yes"/>
+
+</books>
+
+<members>
+
+<member id="1" password="password1" name="John Doe" age="30" mandatory="yes"/>
+<member id="2" password="password2" name="Jane Doe" age="25" mandatory="yes"/>
+<member id="3" password="password3" name="Peter Parker" age="23" mandatory="yes"/>
+<member id="4" password="password4" name="Clark Kent" age="35" mandatory="yes"/>
+<member id="5" password="password5" name="Bruce Wayne" age="40" mandatory="yes"/>
+<member id="6" password="password6" name="Wonder Woman" age="3000" mandatory="yes"/>
+<member id="7" password="password7" name="Tony Stark" age="45" mandatory="yes"/>
+<member id="8" password="password8" name="Thor" age="1500" mandatory="yes"/>
+<member id="9" password="password9" name="Hulk" age="30" mandatory="yes"/>
+<member id="10" password="password10" name="Black Widow" age="35" mandatory="yes"/>
+
+</members>
+
+</library>

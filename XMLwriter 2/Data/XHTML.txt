@@ -1,0 +1,85 @@
+a href=""
+abbr
+acronym
+address
+applet
+area shape="" alt="" /
+b
+base href="" /
+bdo
+big
+blockquote
+body
+br /
+button type=""
+caption
+cite
+code
+col span ="" /
+colgroup span=""
+dd
+del
+dfn
+div
+dl
+dt
+em
+fieldset
+form action="" method=""
+frame /
+frameset
+h1
+h2
+h3
+h4
+h5
+h6
+head
+hr /
+html
+i
+iframe
+img src="" alt="" /
+input type = "" /
+ins
+kbd
+label
+legend
+li
+link
+map id="" name=""
+meta
+noframes
+noscript
+object
+ol
+optgroup
+option
+p
+param id="" name="" valuetype=""
+pre
+q
+samp
+script type=""
+select
+small
+span
+strong
+style
+sub
+sup
+table
+tbody
+td
+td rowspan="" colspan=""
+textarea rows="" cols=""
+tfoot
+th
+th rowspan="" colspan=""
+thead
+title
+tr
+tt
+u
+ul
+var

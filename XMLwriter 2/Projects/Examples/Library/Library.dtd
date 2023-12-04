@@ -1,0 +1,43 @@
+<!--See LibraryDtd.xml for details on how to use this DTD for validation-->
+
+<!--A sequence of child elements.
+	(*) indicates 0 or more.-->
+<!ELEMENT library (name,book*,journal*,video*)>
+<!ELEMENT name (#PCDATA)>
+<!--A sequence of child elements.
+	(?) indicates 0 or 1.
+	(+) indicates 1 or more.-->
+<!ELEMENT book (publisher,title,edition?,author+,isbn,callno,online_url?)>
+<!--The element 'book' contains an enumerated attribute called 'status'.
+	This attribute is required, and may have the value 'available' or 'on_loan'.-->
+<!ATTLIST book status (available|on_loan) #REQUIRED>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!--A sequence of child elements-->
+<!ELEMENT author (first-name,last-name)>
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT callno (#PCDATA)>
+<!ELEMENT online_url (#PCDATA)>
+<!--A sequence of child elements.
+	(*) indicates 0 or more.-->
+<!ELEMENT journal (title,date,author*,callno)>
+<!--The element 'journal' contains an attribute called 'series'.
+	This attribute is required, and must be composed of CDATA (text that does not form markup).-->
+<!ATTLIST journal series CDATA #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!--A sequence of child elements.
+	(+) indicates 1 or more.-->
+<!ELEMENT video (title,year,director+,genre+,callno)>
+<!--The element 'video' contains an enumerated attribute called 'status'.
+	This attribute is required, and may have the value 'available' or 'on_loan'.-->
+<!ATTLIST video status (available|on_loan) #REQUIRED>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT director (name)>
+<!ELEMENT genre (#PCDATA)>
+
+<!--This file was created using XMLwriter v2.0 Beta 2.
+	Copyright Wattle Software 2002. All rights reserved.
+	http://XMLwriter.net/-->

@@ -1,0 +1,168 @@
+HTML 4.01 Strict DTD
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+HTML 4.01 Transitional DTD
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+HTML 4.01 Frameset DTD
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+document root element
+<HTML></HTML>
+anchor
+<A></A>
+abbreviated form
+<ABBR></ABBR>
+acronym
+<ACRONYM></ACRONYM>
+information on author
+<ADDRESS></ADDRESS>
+client-side image map area
+<AREA SHAPE="" ALT="">
+bold text style
+<B></B>
+document base URI
+<BASE HREF="">
+I18N BiDi over-ride
+<BDO DIR=""></BDO>
+large text style
+<BIG></BIG>
+long quotation
+<BLOCKQUOTE></BLOCKQUOTE>
+document body
+<BODY></BODY>
+forced line break
+<BR>
+push button
+<BUTTON TYPE=""></BUTTON>
+table caption
+<CAPTION></CAPTION>
+citation
+<CITE></CITE>
+computer code fragment
+<CODE></CODE>
+table column
+<COL SPAN="">
+table column group
+<COLGROUP SPAN=""></COLGROUP>
+definition description
+<DD></DD>
+deleted text
+<DEL></DEL>
+instance definition
+<DFN></DFN>
+generic language/style container
+<DIV></DIV>
+definition list
+<DL></DL>
+definition term
+<DT></DT>
+emphasis
+<EM></EM>
+form control group
+<FIELDSET></FIELDSET>
+interactive form
+<FORM ACTION="" METHOD=""></FORM>
+subwindow
+<FRAME FRAMEBORDER="" SCROLLING="">
+window subdivision
+<FRAMESET></FRAMESET>
+heading 1
+<H1></H1>
+heading 2
+<H2></H2>
+heading 3
+<H3></H3>
+heading 4
+<H4></H4>
+heading 5
+<H5></H5>
+heading 6
+<H6></H6>
+document head
+<HEAD></HEAD>
+horizontal rule
+<HR>
+italic text style
+<I></I>
+inline subwindow
+<IFRAME FRAMEBORDER="" SCROLLING=""></IFRAME>
+embedded image
+<IMG SRC="" ALT="">
+form control
+<INPUT TYPE="">
+inserted text
+<INS></INS>
+text to be entered by the user 
+<KBD></KBD>
+form field label text
+<LABEL></LABEL>
+fieldset legend
+<LEGEND></LEGEND>
+list item
+<LI></LI>
+a media-independent link
+<LINK></LINK>
+client-side image map
+<MAP NAME=""></MAP>
+generic metainformation
+<META CONTENT="">
+alternate content container for non frame-based rendering
+<NOFRAMES></NOFRAMES>
+alternate content container for non script-based rendering
+<NOSCRIPT></NOSCRIPT>
+generic embedded object
+<OBJECT></OBJECT>
+ordered list
+<OL></OL>
+option group
+<OPTGROUP></OPTGROUP>
+selectable choice
+<OPTION></OPTION>
+paragraph
+<P></P>
+named property value
+<PARAM NAME="" VALUETYPE="">
+preformatted text
+<PRE></PRE>
+short inline quotation
+<Q></Q>
+sample program output, scripts, etc.
+<SAMP></SAMP>
+script statements
+<SCRIPT TYPE=""></SCRIPT>
+option selector
+<SELECT></SELECT>
+small text style
+<SMALL></SMALL>
+generic language/style container
+<SPAN></SPAN>
+strong emphasis
+<STRONG></STRONG>
+style info
+<STYLE TYPE=""></STYLE>
+subscript
+<SUB></SUB>
+superscript
+<SUP></SUP>
+table
+<TABLE></TABLE>
+table body
+<TBODY></TBODY>
+table data cell
+<TD ROWSPAN="" COLSPAN=""></TD>
+multi-line text field
+<TEXTAREA ROWS="" COLS=""></TEXTAREA>
+table footer
+<TFOOT></TFOOT>
+table header cell
+<TH ROWSPAN="" COLSPAN=""></TH>
+table header
+<THEAD></THEAD>
+document title
+<TITLE></TITLE>
+table row
+<TR></TR>
+teletype or monospaced text style
+<TT></TT>
+unordered list
+<UL></UL>
+instance of a variable or program argument
+<VAR></VAR>

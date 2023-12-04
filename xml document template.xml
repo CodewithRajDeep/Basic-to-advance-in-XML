@@ -1,0 +1,19 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<results>
+    <Student>
+          <rollno> R2142211214</rollno>
+          <name> DEEP RAJ</name>
+          <subject> <name>XML PROGRAMMING </name> 
+        <marks> 9.5</marks> </subject>
+
+        <subject> <name>MICRO PROCESSOR AND EMBEDD SYSTEMS </name> 
+            <marks> 9.1</marks> </subject>
+
+            <subject> <name>COMPILER DESIGN  </name> 
+                <marks> 9.3</marks> </subject>
+
+                <totalmarks> 9.1 </totalmarks>
+                <results> QUALIFIED </results>
+
+    </Student>
+</results>

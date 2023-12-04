@@ -1,0 +1,110 @@
+XML declaration
+<?xml version="" ?>
+XML declaration (including all attributes)
+<?xml version="" encoding="" standalone="" ?>
+XSL stylesheet declaration
+<xsl:stylesheet version=""></xsl:stylesheet>
+XSL stylesheet declaration (including all attributes)
+<xsl:stylesheet id="" extension-element-prefixes="" exclude-result-prefixes="" version=""></xsl:stylesheet>
+apply-imports
+<xsl:apply-imports />
+apply-templates
+<xsl:apply-templates></xsl:apply-templates>
+apply-templates (including all attributes)
+<xsl:apply-templates select="" mode=""></xsl:apply-templates>
+attribute
+<xsl:attribute name=""></xsl:attribute>
+attribute (including all attributes)
+<xsl:attribute name="" namespace=""></xsl:attribute>
+attribute-set
+<xsl:attribute-set name=""></xsl:attribute-set>
+attribute-set (including all attributes)
+<xsl:attribute-set name="" use-attribute-sets=""></xsl:attribute-set>
+call-template
+<xsl:call-template name=""></xsl:call-template>
+choose
+<xsl:choose></xsl:choose>
+comment
+<xsl:comment></xsl:comment>
+copy
+<xsl:copy></xsl:copy>
+copy (including all attributes)
+<xsl:copy use-attribute-sets=""></xsl:copy>
+copy-of
+<xsl:copy-of select="" />
+decimal-format
+<xsl:decimal-format />
+decimal-format (including all attributes)
+<xsl:decimal-format name="" decimal-separator="" grouping-separator="" infinity="" minus-sign="" NaN="" percent="" per-mille="" zero-digit="" digit="" pattern-separator="" />
+element
+<xsl:element name=""><xsl:element>
+element (including all attributes)
+<xsl:element name="" namespace="" use-attribute-sets=""></xsl:element>
+fallback
+<xsl:fallback></xsl:fallback>
+for-each
+<xsl:for-each select=""></xsl:for-each>
+if
+<xsl:if test=""></xsl:if>
+import
+<xsl:import href="" />
+include
+<xsl:include href="" />
+key
+<xsl:key name="" match="" use="" />
+message
+<xsl:message></xsl:message>
+message (including all attributes)
+<xsl:message terminate=""></xsl:message>
+namespace-alias
+<xsl:namespace-alias stylesheet-prefix="" result-prefix="" />
+number
+<xsl:number />
+number (including all attributes)
+<xsl:number level="" count="" from="" value="" format="" lang="" letter-value="" grouping-separator="" grouping-size="" />
+otherwise
+<xsl:otherwise></xsl:otherwise>
+output
+<xsl:output />
+output (including all attributes)
+<xsl:output method="" version="" encoding="" omit-xml-declaration="" standalone="" doctype-public="" doctype-system="" cdata-section-elements="" indent="" media-type="" />
+param
+<xsl:param name=""></xsl:param>
+param (including all attributes)
+<xsl:param name="" select=""></xsl:param>
+preserve-space
+<xsl:preserve-space elements="" />
+processing-instruction
+<xsl:processing-instruction name=""></xsl:processing-instruction>
+sort
+<xsl:sort />
+sort (including all attributes)
+<xsl:sort select="" lang="" data-type="" order="" case-order="" />
+strip-space
+<xsl:strip-space elements="" />
+template
+<xsl:template></xsl:template>
+template (including all attributes)
+<xsl:template match="" name="" priority="" mode=""></xsl:template>
+text
+<xsl:text></xsl:text>
+text (including all attributes)
+<xsl:text disable-output-escaping=""></xsl:text>
+transform
+<xsl:transform version=""></xsl:transform>
+transform (including all attributes)
+<xsl:transform id="" extension-element-prefixes="" exclude-result-prefixes="" version=""></xsl:transform>
+value-of
+<xsl:value-of select="" />
+value-of (including all attributes)
+<xsl:value-of select="" disable-output-escaping="" />
+variable
+<xsl:variable name=""></xsl:variable>
+variable (including all attributes)
+<xsl:variable name="" select=""></xsl:variable>
+when
+<xsl:when test=""></xsl:when>
+with-param
+<xsl:with-param name=""></xsl:with-param>
+with-param (including all attributes)
+<xsl:with-param name="" select=""></xsl:with-param>

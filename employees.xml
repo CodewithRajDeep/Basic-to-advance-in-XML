@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "employee.dtd">
+<employee>
+<child name="John" gender="boy"/>
+<child name="Mary" gender="girl"/>
+<child name="Peter" gender="boy"/>
+</employee>
